@@ -1,0 +1,15 @@
+.header{
+    padding-top: 40px;
+    background: #191A1D;
+    color: #FFFFFF;
+    padding: 33px;
+    padding-bottom: 200px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .header{
+        padding-top: 40px;
+        padding: 5px;
+    }
+  }
