@@ -1,5 +1,5 @@
 import React from 'react';
-import { Badge, Col, Container as div, Row } from 'react-bootstrap';
+import { Badge, Container as div } from 'react-bootstrap';
 import Navigation from '../Navigation/Navigation';
 import './About.css';
 import '../Style/Style.css';
