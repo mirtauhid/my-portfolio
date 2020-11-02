@@ -1,0 +1,76 @@
+*{
+    font-family: Rubik, Arial, sans-serif;
+}
+
+h1{
+    font-size: 56px;
+    line-height: 56px;
+    color: #fff;
+    word-spacing: 0px;
+    font-weight: 400;
+}
+
+h2{
+    font-family: Rubik, Arial, sans-serif;
+    font-size: 42px;
+    line-height: 42px;
+    text-decoration: none solid rgb(25,26,29);
+    text-transform: uppercase;
+    word-spacing: 0px;
+    text-align: left;
+}
+
+h4{
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 28px;
+    word-spacing: 0px;
+    color: #ABABAB;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    word-spacing: 0px;
+    color: #5E5E5E;
+}
+
+.mt-100{
+    margin-top: 100px;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
+
+.lineH{
+    line-height: 40px;
+}
+
+.main-button{
+    background: #4b6cc1;
+    height: 75px;
+    width: 215px;
+    border-radius: 1000px;
+    font-size: 28px;
+    font-weight: 400; 
+    transition: all ease .3s;
+}
+
+.main-button:hover{
+    height: 80px;
+    width: 220px;
+    border-radius: 1000px;
+    background: #191A1D;
+    border: 3px solid  #4b6cc1;
+    margin-top: -5px;
+    padding-top: -10px;
+    font-size: 30px;
+}
+
+.carousel-box{
+    box-shadow: 0 1px 5px rgba(0,0,0,.05), 0 5px 30px rgba(0,0,0,.2);
+    border-radius: 5px;
+    overflow: hidden;
+}

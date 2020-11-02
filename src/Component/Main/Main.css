@@ -1,47 +1,13 @@
-.main{
-    margin-top: 80px;
+.photo-back{
+    height: 360px;
+    width: 360px;
+    background: #121316;
+    position: absolute;
+    margin-left: 85px;
 }
 
-img:after {
-    border-radius: 5px !important;
-}
-
-h1{
-    font-family: Rubik, Arial, sans-serif;
-    font-size: 56px;
-    line-height: 56px;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-align: left !important;
-    word-spacing: 0px;
-    font-weight: 400;
-}
-
-p{
-    font-family: Rubik, Arial, sans-serif;
-    font-size: 28px;
-    font-weight: 300;
-    line-height: 39.2px;
-    color: #ababab;
-    text-align: left !important;
-    word-spacing: 0px;
-}
-
-.mainBtn{
-    background: #4b6cc1;
-    height: 75px;
-    width: 215px;
-    border-radius: 1000px;
-    font-family: Rubik, Arial, sans-serif;
-    font-size: 28px;
-    font-weight: 400; 
-    transition: all ease .3s;
-}
-
-.mainBtn:hover{
-    height: 80px;
-    width: 220px;
-    border-radius: 1000px;
-    background: #191A1D;
-    border: 3px solid  #4b6cc1;
-    margin-top: -5px;
+#avatar{
+    position: relative;
+    padding: 40px;
+    margin-left: 85px;
 }

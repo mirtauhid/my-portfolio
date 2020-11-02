@@ -2,25 +2,35 @@ import React from 'react';
 import Navigation from '../Navigation/Navigation';
 import ProjectOne from '../ProjectOne/ProjectOne';
 import './Projects.css';
+import '../Style/Style.css';
+import ProjectTwo from '../ProjectTwo/ProjectTwo';
+import ProjectThree from '../ProjectThree/ProjectThree';
+import ProjectFour from '../ProjectFour/ProjectFour';
+import Footer from '../Footer/Footer';
 
 const Projects = () => {
     return (
         <div>
-            <div style={{ background: '#191A1D', padding: '30px', color:'#191A1D', height: '578px'}}>
+            <div className="header-section">
                 <Navigation></Navigation>
-                <div className="projects-main">
+                <div className="header-text">
                     <h1>My Projects</h1>
                     <br />
-                    <p>
+                    <h4>
                         In my learning period, I have acquired a decent amount of knowledge <br />
                     So, I needed to actualize my insight to strengthen my base of coding. <br />
-                    Here are the amazing projects that I did in my learning period.
-                </p>
+                    Here are the amazing projects that I have done already.
+                    </h4>
                 </div>
             </div>
-            <div style={{ marginTop: '150px', padding: '40px'}}>
+            <div className="projects-container">
                 <ProjectOne></ProjectOne>
+                <ProjectTwo></ProjectTwo>
+                <ProjectThree></ProjectThree>
+                <ProjectFour></ProjectFour>
             </div>
+            <br/>
+            <Footer></Footer>
         </div>
     );
 };

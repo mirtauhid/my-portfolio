@@ -1,9 +1,9 @@
 import React from 'react';
 import { Badge, Button, Col, Container, Row } from 'react-bootstrap';
-import './ProjectOne.css';
 import ProjectOneSlide from './ProjectOneSlide';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGlobe, faServer, faCode } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGlobe, faServer, faCode } from '@fortawesome/free-solid-svg-icons';
+import '../Style/Style.css';
 
 const ProjectOne = () => {
 
@@ -13,7 +13,7 @@ const ProjectOne = () => {
         <Container fluid>
             <Row>
                 <Col md={7}>
-                    <div style={{ background: '#f6f6f6',borderRadius: '10px', height: '400px', width: '100%', padding: '40px', marginBottom: '100px'}}>
+                    <div style={{ background: '#f6f6f6', borderRadius: '10px', height: '400px', width: '100%', padding: '40px', marginBottom: '100px' }}>
                         <div className="carousel-box">
                             <ProjectOneSlide></ProjectOneSlide>
                         </div>
@@ -23,21 +23,29 @@ const ProjectOne = () => {
                 <Col md={5} className="description">
                     <h2>Creative Agency</h2>
                     <div style={{ height: '315px', width: '100%' }}>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates dolorem praesentium, ducimus voluptate quos quae temporibus illum iusto numquam nesciunt.</p>
+                        <p>
+                            Creative Agency is a digital application development company website. This web application is mainly created with react besides bootstrap also used. It is hosted in the firebase and back-end server in Heroku. It has a user Cpanel and admin panel also which are secured with firebase auth. Finally, it's an awesome web application.
+                        </p>
                     </div>
-                    <div className="d-flex justify-content-left">
-                    <Button variant="dark"><FontAwesomeIcon icon={faGlobe} /> Live </Button>
-                    <Button className="ml-3" variant="dark"><FontAwesomeIcon icon={faCode} /> UI Code</Button>
-                    <Button className="ml-3" variant="dark"><FontAwesomeIcon icon={faServer} /> Server Code</Button>
-                    </div>
-                    <br/>
                     <div className="d-flex justify-content-between">
-                        <Badge variant="primary">Primary</Badge>{' '}
-                        <Badge variant="secondary">Secondary</Badge>{' '}
-                        <Badge variant="success">Success</Badge>{' '}
-                        <Badge variant="danger">Danger</Badge>{' '}
-                        <Badge variant="warning">Warning</Badge> <Badge variant="info">Info</Badge>{' '}
-                        <Badge variant="light">Light</Badge> <Badge variant="dark">Dark</Badge>
+                        <Badge variant="light">React</Badge>{' '}
+                        <Badge variant="light">Node</Badge>{' '}
+                        <Badge variant="light">Mongo</Badge>{' '}
+                        <Badge variant="light">Express</Badge>{' '}
+                        <Badge variant="light">Firebase</Badge>{' '}
+                        <Badge variant="light">Heroku</Badge>{' '}
+                        <Badge variant="light">Bootstrap</Badge>
+                        <Badge variant="light">GitHub</Badge>
+                    </div>
+                    <br />
+                    <div className="d-flex justify-content-left">
+
+                        <Button href="https://creative-agency-test.web.app/" variant="light"><FontAwesomeIcon icon={faGlobe} /> Live </Button>
+
+                        <Button href="https://github.com/mirtauhid/creative-agency-client" className="ml-3" variant="light"><FontAwesomeIcon icon={faCode} /> UI Code</Button>
+
+                        <Button href="https://github.com/mirtauhid/creative-agency-server" className="ml-3" variant="light"><FontAwesomeIcon icon={faServer} /> Server Code</Button>
+
                     </div>
                 </Col>
             </Row>

@@ -4,6 +4,8 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import About from './Component/About/About';
+import Blog from './Component/Blogs/Blog';
 import Contact from './Component/Contact/Contact';
 import Home from './Component/Home/Home';
 import Projects from './Component/Projects/Projects';
@@ -20,6 +22,12 @@ const App = () => {
         </Route>
         <Route path="/contact">
           <Contact />
+        </Route>
+        <Route path="/blog">
+          <Blog />
+        </Route>
+        <Route path="/about">
+          <About />
         </Route>
       </Switch>
     </Router>

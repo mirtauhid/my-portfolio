@@ -1,0 +1,31 @@
+.about-header{
+    background: #191A1D;
+    padding: 33px 33px 30px 33px;
+    color:#191A1D;
+    height: 578px;
+    text-align: center;
+}
+
+.about-main{
+    margin-top: 200px;
+    margin-bottom: 300px;
+}
+
+.photoBox{
+    background: #f6f6f6;
+    border-radius: 10px;
+    height: 380px;
+    width: 550px;
+    padding: 40px;
+    text-align: right;
+}
+
+.photoBox img{
+    height: 380px;
+    width: 500px;
+}
+
+.text-box{
+    text-align: left;
+}
+
