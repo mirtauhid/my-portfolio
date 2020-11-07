@@ -6,8 +6,32 @@
     margin-left: 85px;
 }
 
-#avatar{
+.avatar{
     position: relative;
     padding: 40px;
     margin-left: 85px;
+}
+
+.for_media{
+    visibility: hidden;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  
+    .photo-container{
+        display: none;
+    }
+
+    .for_media{
+        visibility: visible;
+        justify-content: center;
+        margin-bottom: 200px;
+        background: #121316;
+        padding: 20px;
+    }
+
+    .avatar-media{
+        height: 450px;
+    }
+    
 }

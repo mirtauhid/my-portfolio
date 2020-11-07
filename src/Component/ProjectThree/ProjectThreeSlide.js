@@ -6,7 +6,7 @@ import reg from '../../images/projects/projectThree/reg.png';
 import admin from '../../images/projects/projectThree/admin.png';
 import tasks from '../../images/projects/projectThree/tasks.png';
 import login from '../../images/projects/projectThree/login.png';
-
+import '../Projects/Projects.css';
 
 const ProjectOneSlide = () => {
     return (
@@ -14,32 +14,32 @@ const ProjectOneSlide = () => {
 
 
             <Carousel.Item>
-                <img style={{height: '400px', width: '100%'}} src={home} alt="" />
+                <img className="img-size" src={home} alt="" />
             </Carousel.Item>
 
 
             <Carousel.Item>
-                <img style={{height: '400px', width: '100%'}} src={eventadd} alt="" />
+                <img className="img-size" src={eventadd} alt="" />
             </Carousel.Item>
 
 
             <Carousel.Item>
-                <img style={{height: '400px', width: '100%'}} src={reg} alt="" />
+                <img className="img-size" src={reg} alt="" />
             </Carousel.Item>
 
 
             <Carousel.Item>
-                <img style={{height: '400px', width: '100%'}} src={admin} alt="" />
+                <img className="img-size" src={admin} alt="" />
             </Carousel.Item>
 
 
             <Carousel.Item>
-                <img style={{height: '400px', width: '100%'}} src={tasks} alt="" />
+                <img className="img-size" src={tasks} alt="" />
             </Carousel.Item>
 
 
             <Carousel.Item>
-                <img style={{height: '400px', width: '100%'}} src={login} alt="" />
+                <img className="img-size" src={login} alt="" />
             </Carousel.Item>
 
 

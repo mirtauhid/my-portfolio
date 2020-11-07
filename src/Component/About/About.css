@@ -11,6 +11,10 @@
     margin-bottom: 300px;
 }
 
+.about-main-media{
+    display: none;
+}
+
 .photoBox{
     background: #f6f6f6;
     border-radius: 10px;
@@ -27,5 +31,52 @@
 
 .text-box{
     text-align: left;
+}
+
+
+@media (min-width: 320px) and (max-width: 500px) {
+  
+    .about-header{
+        background: #191A1D;
+        padding: 0px;
+        color:#191A1D;
+        height: 700px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .about-text{
+        padding: 15px;
+        overflow: hidden;
+    }
+
+    .about-main{
+        visibility: hidden;
+        overflow: hidden;
+    }
+
+    .about-main-media{
+        display: block;
+        padding: 15px;
+        margin-top: -1000px;
+        overflow: hidden;
+    }
+    .photoBox{
+        background: #f6f6f6;
+        border-radius: 10px;
+        height: 290px;
+        width: 100%;
+        padding: 5px;
+        text-align: right;
+        margin-bottom: 50px;
+    }
+
+    
+    .text-box{
+        text-align: center;
+        line-height: 20px;
+    }
+    
+    
 }
 

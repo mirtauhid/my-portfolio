@@ -3,6 +3,7 @@ import { Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Navigation.css';
 import '../Style/Style.css';
+import myResume from '../../resources/Resume of Tauhid.pdf';
 
 const Navigation = () => {
     return (
@@ -16,7 +17,7 @@ const Navigation = () => {
                     <Nav className="ml-auto">
                         <Nav.Link as={Link} to="/" >Home</Nav.Link>
                         <Nav.Link as={Link} to="/projects" >Projects</Nav.Link>
-                        <Nav.Link href="https://uc220eaa440159efa3ba6280ff2f.dl.dropboxusercontent.com/cd/0/get/BCVAxj4feS9pNBkl7LVTKyoa5Pyps3oJzasNC9EHD82NkP_ht-awx7cuu2mBPDLBHNtORW_0jcFIdZO0AR3OAU6DazeOGlnPhVoZmiEpvi6NZKb5HlGiSxHFn0ts3avC_pE/file" >Resume</Nav.Link>
+                        <Nav.Link href={myResume} download="Resume_of_Tauhid.pdf">Resume</Nav.Link>
                         <Nav.Link as={Link} to="/blog" >Blog</Nav.Link>
                         <Nav.Link as={Link} to="/about" >About</Nav.Link>
                         <Nav.Link as={Link} to="/contact" >Contact</Nav.Link>

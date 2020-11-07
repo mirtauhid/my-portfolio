@@ -4,6 +4,7 @@ import ProjectFourSlide from './ProjectFourSlide';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe, faServer, faCode } from '@fortawesome/free-solid-svg-icons';
 import '../Style/Style.css';
+import '../Projects/Projects.css';
 
 const ProjectFour = () => {
 
@@ -13,7 +14,7 @@ const ProjectFour = () => {
         <Container fluid className="mt-100">
             <Row>
                 <Col md={7}>
-                    <div style={{ background: '#f6f6f6', borderRadius: '10px', height: '400px', width: '100%', padding: '40px', marginBottom: '100px' }}>
+                    <div className="carousel-bg">
                         <div className="carousel-box">
                             <ProjectFourSlide></ProjectFourSlide>
                         </div>
@@ -29,13 +30,11 @@ const ProjectFour = () => {
                     </div>
                     <div className="d-flex justify-content-between">
                         <Badge variant="light">React</Badge>{' '}
-                        <Badge variant="light">Node</Badge>{' '}
                         <Badge variant="light">Mongo</Badge>{' '}
                         <Badge variant="light">Ex</Badge>{' '}
                         <Badge variant="light">Firebase</Badge>{' '}
                         <Badge variant="light">Heroku</Badge>{' '}
-                        <Badge variant="light">Bootstrap</Badge>
-                        <Badge variant="light">GitHub</Badge>
+                        <Badge variant="light">Bootstrap</Badge>{' '}
                         <Badge variant="light">Stripe</Badge>
                     </div>
                     <br />

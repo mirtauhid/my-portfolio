@@ -19,7 +19,7 @@ const Blog = () => {
         <div className="blog">
             <div className="blog-header">
                 <Navigation></Navigation>
-                <div className="mt-50" >
+                <div className="mt-50 banner-text" >
                     <h1>My Blog</h1>
                     <br />
                     <h4 className="lineH">I try to smash you with the information that will make your life easier.</h4>

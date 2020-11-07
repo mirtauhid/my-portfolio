@@ -6,6 +6,10 @@ input{
     border-radius: 5px;
 }
 
+.contact-form{
+    width: 100%;
+}
+
 .label-text{
     color: #919191;
     font-size: 20px;
@@ -28,3 +32,32 @@ input{
 .main-form{
     margin-bottom: 50px !important;
 }
+
+.contact-form-media{
+    display: none;
+}
+
+
+@media (min-width: 320px) and (max-width: 500px) {
+  
+    .contact-form-regular{
+        display: none;
+    }
+
+    .contact-form-media{
+        display: block;
+        justify-content: center;
+    }
+
+    .label-text{
+        margin-top: 15px;
+    }
+.media-button{
+    width: 100%;
+    margin-left: 0px !important;
+    border-radius: 5px;
+}
+    
+    
+}
+

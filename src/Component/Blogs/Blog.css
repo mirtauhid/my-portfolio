@@ -47,3 +47,17 @@
     color: #4B6CC1;
 }
 
+@media (min-width: 320px) and (max-width: 500px) {
+    .blog-header{
+        background: #191A1D;
+        padding: 0px; 
+        color:#191A1D;
+        height: 700px;
+        text-align: center;
+    }
+
+    .banner-text{
+        padding: 15px;
+    }
+}
+

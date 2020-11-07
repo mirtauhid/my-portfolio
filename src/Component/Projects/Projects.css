@@ -19,3 +19,53 @@
     margin-top: 150px;
     padding: 35px;
 }
+
+.carousel-bg{
+    background: #f6f6f6; 
+    border-radius: 10px; 
+    height: 400px; 
+    width: 100%;
+    padding: 40px; 
+    margin-bottom: 100px; 
+
+}
+
+.img-size{
+    height: 400px; 
+    width: 100%;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+    .header-section{
+        background: #191A1D;
+        color:#191A1D;
+        height: 700px;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .header-text{
+        padding: 16px;
+        padding-top: 100px;
+    }
+
+    .carousel-bg{
+        background: black; 
+        border-radius: 10px; 
+        height: 280px; 
+        width: 100%;
+        padding: 0px; 
+        margin-bottom: 100px; 
+    }
+
+    .projects-container{
+        margin-top: 150px;
+        padding: 0px;
+    }
+
+    .img-size{
+        height: 280px; 
+        width: 100%;
+    }
+}
+

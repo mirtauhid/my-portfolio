@@ -7,6 +7,7 @@ import footer from '../../images/projects/projectOne/footer.png';
 import auth from '../../images/projects/projectOne/auth.png';
 import userCP from '../../images/projects/projectOne/userCP.png';
 import adminCP from '../../images/projects/projectOne/adminCP.png';
+import '../Projects/Projects.css';
 
 
 const ProjectOneSlide = () => {
@@ -15,37 +16,37 @@ const ProjectOneSlide = () => {
 
 
             <Carousel.Item>
-                <img style={{height: '400px', width: '100%'}} src={full} alt="" />
+                <img className="img-size" src={full} alt="" />
             </Carousel.Item>
 
 
             <Carousel.Item>
-                <img style={{height: '400px', width: '100%'}} src={header} alt="" />
+                <img className="img-size" src={header} alt="" />
             </Carousel.Item>
 
 
             <Carousel.Item>
-                <img style={{height: '400px', width: '100%'}} src={carousel} alt="" />
+                <img className="img-size" src={carousel} alt="" />
             </Carousel.Item>
 
 
             <Carousel.Item>
-                <img style={{height: '400px', width: '100%'}} src={footer} alt="" />
+                <img className="img-size" src={footer} alt="" />
             </Carousel.Item>
 
 
             <Carousel.Item>
-                <img style={{height: '400px', width: '100%'}} src={auth} alt="" />
+                <img className="img-size" src={auth} alt="" />
             </Carousel.Item>
 
 
             <Carousel.Item>
-                <img style={{height: '400px', width: '100%'}} src={userCP} alt="" />
+                <img className="img-size" src={userCP} alt="" />
             </Carousel.Item>
 
 
             <Carousel.Item>
-                <img style={{height: '400px', width: '100%'}} src={adminCP} alt="" />
+                <img className="img-size" src={adminCP} alt="" />
             </Carousel.Item>
 
 

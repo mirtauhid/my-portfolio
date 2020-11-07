@@ -13,12 +13,13 @@ const Contact = () => {
         <div>
             <div className="contact-header">
                 <Navigation></Navigation>
-                <div className="mt-50" >
+                <div className="mt-50 contact-text">
                     <h1>Contact Me</h1>
                     <br />
                     <h4 className="lineH">
                         If you'd like to contact me, just fill out the form and submit it! <br />
-                        I will get back to you shortly.
+                        I will get back to you shortly. <br />
+                        Email - mail.tauhidul@gmail.com
                     </h4>
                 </div>
             </div>

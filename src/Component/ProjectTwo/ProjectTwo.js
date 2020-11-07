@@ -5,6 +5,7 @@ import ProjectTwoSlide from './ProjectTwoSlide';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe, faCode } from '@fortawesome/free-solid-svg-icons';
 import '../Style/Style.css';
+import '../Projects/Projects.css';
 
 const ProjectTwo = () => {
 
@@ -14,7 +15,7 @@ const ProjectTwo = () => {
         <Container fluid className="mt-100">
             <Row>
                 <Col md={7}>
-                    <div style={{ background: '#f6f6f6', borderRadius: '10px', height: '400px', width: '100%', padding: '40px', marginBottom: '100px' }}>
+                    <div className="carousel-bg">
                         <div className="carousel-box">
                             <ProjectTwoSlide></ProjectTwoSlide>
                         </div>
@@ -35,7 +36,6 @@ const ProjectTwo = () => {
                         <Badge variant="light">Google Map</Badge>{' '}
                         <Badge variant="light">Firebase Auth</Badge>{' '}
                         <Badge variant="light">Bootstrap</Badge>
-                        <Badge variant="light">GitHub</Badge>
                     </div>
                     <br />
                     <div className="d-flex justify-content-left">

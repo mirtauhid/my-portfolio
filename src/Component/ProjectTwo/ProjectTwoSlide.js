@@ -5,7 +5,7 @@ import booking from '../../images/projects/projectTwo/Booking.png';
 import createAccount from '../../images/projects/projectTwo/Create account.png';
 import login from '../../images/projects/projectTwo/Login.png';
 import search from '../../images/projects/projectTwo/Search.png';
-
+import '../Projects/Projects.css';
 
 const ProjectTwoSlide = () => {
     return (
@@ -13,27 +13,27 @@ const ProjectTwoSlide = () => {
 
 
             <Carousel.Item>
-                <img style={{height: '400px', width: '100%'}} src={home} alt="" />
+                <img className="img-size" src={home} alt="" />
             </Carousel.Item>
 
 
             <Carousel.Item>
-                <img style={{height: '400px', width: '100%'}} src={createAccount} alt="" />
+                <img className="img-size" src={createAccount} alt="" />
             </Carousel.Item>
 
 
             <Carousel.Item>
-                <img style={{height: '400px', width: '100%'}} src={booking} alt="" />
+                <img className="img-size" src={booking} alt="" />
             </Carousel.Item>
 
 
             <Carousel.Item>
-                <img style={{height: '400px', width: '100%'}} src={login} alt="" />
+                <img className="img-size" src={login} alt="" />
             </Carousel.Item>
 
 
             <Carousel.Item>
-                <img style={{height: '400px', width: '100%'}} src={search} alt="" />
+                <img className="img-size" src={search} alt="" />
             </Carousel.Item>
 
 
